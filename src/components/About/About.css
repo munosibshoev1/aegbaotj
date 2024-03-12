@@ -1,0 +1,33 @@
+@media (max-width: 971px) {
+  #about {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #about div {
+    width: 100%;
+  }
+
+  .card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card-container:first-child {
+    margin-bottom: 15px !important;
+  }
+}
+
+@media (max-width: 831px) {
+  #about {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
+@media (max-width: 831px) {
+  #about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

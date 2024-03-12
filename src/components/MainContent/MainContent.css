@@ -1,0 +1,22 @@
+@media (max-width: 1329px) {
+  #projects {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+  }
+}
+
+@media (max-width: 831px) {
+  #projects {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
+@media (max-width: 831px) {
+  #projects {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

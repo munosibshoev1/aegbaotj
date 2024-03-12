@@ -1,0 +1,45 @@
+@media (max-width: 1329px) {
+  .projects__container {
+    width: 800px;
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  .card__info {
+    left: 15%;
+  }
+}
+
+@media (max-width: 861px) {
+  .card__info {
+    left: 20% !important;
+  }
+
+  .collapsed__info {
+    left: 0 !important;
+  }
+}
+
+@media (max-width: 719px) {
+  .card__info {
+    left: 25% !important;
+  }
+
+  .collapsed__info {
+    left: 0 !important;
+  }
+}
+
+@media (max-width: 605px) {
+  .card__info {
+    left: 30% !important;
+  }
+
+  .collapsed__info {
+    left: 0 !important;
+  }
+}
